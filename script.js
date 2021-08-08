@@ -24,25 +24,18 @@ for (values of buttons) {
                 {
                     screen.value="Error";
                 }
-                
-                
-               else if(result!=null)       
+                else if(result!=null)       
                 {
-                   
-if(buttonText!='=')
+                   if(buttonText!='=')
 {
-    
         screenValue=screenValue+buttonText;
     screen.value=screenValue;
-             
-}
-
+  }
 else{
 screen.value=result;
 }
                 }
             }
-            
             else {
                 screenValue =screenValue+ buttonText;
                 screen.value = screenValue;
